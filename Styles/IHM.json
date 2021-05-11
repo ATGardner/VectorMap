@@ -9,19 +9,19 @@
   "sources": {
     "IHM": {
       "type": "vector",
-      "url": "https://israelhiking.osm.org.il/vector/data/IHM.json"
+      "url": "http://localhost:5000/vector/data/IHM.json"
     },
     "TerrainRGB": {
       "type": "raster-dem",
-      "url": "https://israelhiking.osm.org.il/vector/data/TerrainRGB.json"
+      "url": "http://localhost:5000/vector/data/TerrainRGB.json"
     },
     "Contour": {
       "type": "vector",
-      "url": "https://israelhiking.osm.org.il/vector/data/Contour.json"
+      "url": "http://localhost:5000/vector/data/Contour.json"
     },
     "Ortho": {
       "type": "raster",
-      "tiles": ["https://israelhiking.osm.org.il/Ortho/{z}/{y}/{x}.jpg"],
+      "tiles": ["http://localhost:5000/Ortho/{z}/{y}/{x}.jpg"],
       "minzoom": 7,
       "maxzoom": 16
     }
