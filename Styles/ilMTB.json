@@ -9,15 +9,15 @@
   "sources": {
     "IHM": {
       "type": "vector",
-      "url": "http://localhost:5000/vector/data/IHM.json"
+      "url": "http://localhost:443/vector/data/IHM.json"
     },
     "TerrainRGB": {
       "type": "raster-dem",
-      "url": "http://localhost:5000/vector/data/TerrainRGB.json"
+      "url": "http://localhost:443/vector/data/TerrainRGB.json"
     },
     "Contour": {
       "type": "vector",
-      "url": "http://localhost:5000/vector/data/Contour.json"
+      "url": "http://localhost:443/vector/data/Contour.json"
     }
   },
   "sprite": "https://israelhikingmap.github.io/VectorMap/Icons/publish/sprite",
